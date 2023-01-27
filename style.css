@@ -1,0 +1,41 @@
+.root{
+    --color:#6c63ff;
+    --font-family: "Playfair Display", serif;
+    --default-font-family: "Poppins", sans-serif;
+}
+
+
+body{
+
+    background-color: #f9f7fe;
+    font-family:var(--font-family);
+    line-height: 1.5;
+}
+
+
+.Hero{
+    text-align: center;
+    padding: 160px 20px ;
+   
+}
+h1{
+    font-family:"Poppins", sans-serif;
+    font-weight: bold;
+}
+h2{
+    font-size: 80px;
+    font-weight: bold;
+}
+.btn{
+    text-align: center;
+    border-radius: 4;
+    background-color:#6c63ff;
+    padding: 15px 30px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+}
